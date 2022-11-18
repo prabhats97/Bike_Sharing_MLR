@@ -32,6 +32,15 @@ Based on various meteorological surveys and people's styles, the service provide
 We are required to model the demand for shared bikes with the available independent variables. It will be used by the management to understand how exactly the demands vary with different features. They can accordingly manipulate the business strategy to meet the demand levels and meet the customer's expectations. Further, the model will be a good way for management to understand the demand dynamics of a new market. 
 
 
+## Technologies Used
+- pandas
+- numpy
+- seaborn
+- matplotlib
+- statsmodel
+- sklearn
+
+
 
 ## Conclusions
 ### **r2 Value = 0.82 
@@ -45,30 +54,6 @@ We are required to model the demand for shared bikes with the available independ
 2. yr - Positive Correlation
 3. Light_Snow_Or_Rain - Negative Correlation
 
-
-
-
-## Technologies Used
-- pandas
-- numpy
-- seaborn
-- matplotlib
-- statsmodel
-- sklearn
-
-
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
-
-### **r2 Value = 0.82 
-### **Adjusted r2 = 0.816 
-
-### Model Equation : 
-**cnt = 0.3087 + 0.2406 * yr - 0.0808 * holiday + 0.3546 * temp - 0.1211 * windspeed - 0.1456 * spring + 0.0594 * March + 0.0716 * October + 0.0766 * September - 0.0439 * Tuesday - 0.2949 * Light_Snow_Or_Rain - 0.0688 * Mist_Or_Cloudy**
-
-### Top Variables Contributing
-1. temp - Positive Correlation
-2. yr - Positive Correlation
-3. Light_Snow_Or_Rain - Negative Correlation
 
 
 ## Contact
