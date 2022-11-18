@@ -43,8 +43,8 @@ We are required to model the demand for shared bikes with the available independ
 
 
 ## Conclusions
-### **r2 Value = 0.82 
-### **Adjusted r2 = 0.816 
+### **r2 Value** = 0.82 
+### **Adjusted r2** = 0.816 
 
 ### Model Equation : 
 **cnt = 0.3087 + 0.2406 * yr - 0.0808 * holiday + 0.3546 * temp - 0.1211 * windspeed - 0.1456 * spring + 0.0594 * March + 0.0716 * October + 0.0766 * September - 0.0439 * Tuesday - 0.2949 * Light_Snow_Or_Rain - 0.0688 * Mist_Or_Cloudy**
